@@ -3,5 +3,5 @@ module.exports = {
     title: `Clayton Hadaway - JavaScript Developer`
   },
   plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-react-css-modules`],
-  pathPrefix: '/hadaclay.com'
+  pathPrefix: '/'
 };
