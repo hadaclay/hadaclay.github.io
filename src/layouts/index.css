@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Mukta", sans-serif;
+  color: #111;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin: 1.5em 0 .75em;
+}
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+p a:hover {
+  background: #5b95ff;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 0.2em solid #5b95ff;
+  color: inherit;
+  transition: all 0.1s ease;
+}
+
+.logo a {
+  border: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 100%;
+    margin: 1em auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+::selection {
+  background: #ffe869;
+}
