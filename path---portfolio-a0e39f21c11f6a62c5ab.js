@@ -1,2 +1,0 @@
-webpackJsonp([0xaeb581a62131],{"./node_modules/json-loader/index.js!./.cache/json/portfolio.json":function(o,e){o.exports={pathContext:{}}}});
-//# sourceMappingURL=path---portfolio-a0e39f21c11f6a62c5ab.js.map
