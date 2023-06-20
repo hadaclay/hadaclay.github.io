@@ -1,0 +1,8 @@
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+Disallow: /static/resume.pdf
+
+User-agent: archive.org_bot
+Disallow: /
